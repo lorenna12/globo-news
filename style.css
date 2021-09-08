@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+:root{
+
+    /*Cores*/
+
+--color-1: #fff;
+--color-2: #141414;
+
+--sty-1: #0077ff !important;
+--sty-2: #f01018 !important;
+--sty-3: #6eff42 !important;
+--sty-4: #fbc925 !important;
+--sty-5: #0077ff !important; 
+
+
+        /*Fontes*/
+
+--font: 'Open Sans', sans-serif !important; 
+
+     
+       /* Sizes */
+
+       --text: 15px;
+}
+
+body{
+font-family: var(--font);
+margin: 0;
+padding: 0;
+background-color: var(--color-1);
+
+}
+
+.sty-1{ color: var(--sty-1); }
+.sty-2{ color: var(--sty-2); }
+.sty-3{ color: var(--sty-3); }
+.sty-4{ color: var(--sty-4); }
+.sty-5{ color: var(--sty-5); }
+
+
+.header .nav-menu .menu{
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     text-align: left;
+     margin-left: -40px;
+}
+
+.header .nav-menu li{
+    display: block;
+}
+
+.header .nav-menu li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: -20px;
+    
+}
+
+.header .nav-menu .menu li{
+    float: left;
+}
+
+.header .nav-menu .menu li a{
+      font-size: 19px;
+      font-weight: 700;
+      margin-left: 19px;
+}
+
+.header .nav-menu .menu li::first-letter a{
+     margin-left: 0;
+    
+}
+
+header{
+    color: whitesmoke;
+    background-color: whitesmoke; 
+    border: 20px solid whitesmoke;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: -40px;
+}
+
+.cabecalho{
+    border: 02px solid rgb(214, 8, 8);
+    background-color: rgb(214, 8, 8);
+    color: white;
+    
+}
+
+.noticia {
+    margin-left: 50px; 
+    float: left;
+    margin-top: 30px;
+}
+
+h2 {
+    font-family: 'Secular One', sans-serif;
+    margin-left: 320px;
+    font-size: 45px;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+
+h3 {
+    
+    font-size: 13px;
+    text-align: left;
+    margin-left:200px;
+    position: absolute;
+    top: 290px;
+    left: 215px;
+    right: 20px;
+    color:rgb(153, 153, 153)
+}
+
+h4 {
+    font-size: 15px;
+    top: 480px;
+    margin-top: 350px;
+    left: 25px;
+    right: 20px;
+    margin-left: 35px;
+}
+
+
+.abba-dois img {
+    height: 150px;
+    width:260px;
+    margin-left: 570px;
+    margin-top:-150px;
+    text-align: left;
+
+}
+
+h5 {
+    font-size: 15px;
+    text-align: left;
+    margin-left:200px;
+    position: absolute;
+    top: 455px;
+    left: 815px;
+    right: 40px;
+   
+}
+
+.abba-tres img {
+    margin-left: 1030px;
+    margin-top: -420px;
+}
+
+.barra{
+    border: 01px solid rgb(214, 8, 8);
+    background-color: rgb(214, 8, 8);
+    color: rgb(248, 248, 248);
+    
+}
+
